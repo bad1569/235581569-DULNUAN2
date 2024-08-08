@@ -1,0 +1,31 @@
+    1  ..
+    2  gh auth login
+    3  gh repo clone https://github.com/bad1569/235581569-DULNUAN.git
+    4  cd https://github.com/bad1569/235581569-DULNUAN.git
+    5  git checkout -b finalexan
+    6  history > exam_log.txt
+    7  git add exam_log.txt
+    8  git commit -m "Added exam_log.txt with command history"
+    9  git push origin finalexan
+   10  git remote set-url origin https://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@github.com/bad1569/Repository1
+   11  gh repo clone 
+   12  gh repo clone https://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@github.com/Repository1
+   13  gh repo clone https://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@github.com/Repository_1
+   14  git status
+   15  pwd
+   16  ls -a
+   17  git init
+   18  git clone https://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@github.com/bad1569/Repository1.git
+   19  git push origin main
+   20  cd https://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@github/bad1569/Repository1.git
+   21  cd Repository1
+   22  git branch
+   23  git push origin main
+   24  git branch -r
+   25  git checkout -b finalexan
+   26  history > exam_log.txt
+   27  git add exam_log.txt
+   28  git commit -m "Added exam_log.txt with command history"
+   29  git push origin finalexan
+   30  git checkout -b finalexan
+   31  history > exam_log.txt
