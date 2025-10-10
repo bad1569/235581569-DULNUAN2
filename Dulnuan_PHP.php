@@ -11,19 +11,6 @@
     font-family: Arial, sans-serif;
     padding: 20px;
   }
-  button {
-    background-color: #00FFFF; /* cyan */
-    border: none;
-    padding: 10px 20px;
-    margin-top: 10px;
-    cursor: pointer;
-    font-size: 1rem;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  button:hover {
-    background-color: #00cccc;
-  }
   h1 {
     margin-bottom: 40px;
   }
@@ -34,11 +21,6 @@
     border-radius: 8px;
   }
 </style>
-<script>
-  function buttonClicked(activity) {
-    alert('Button clicked for ' + activity);
-  }
-</script>
 </head>
 <body>
 
@@ -52,8 +34,6 @@
     $color = "cyan";
     echo "Hi, I'm $name, I am $age years old, and my favorite color is $color.";
   ?>
-  <br>
-  <button onclick="buttonClicked('Activity 1')">Click me</button>
 </section>
 
 <section>
@@ -66,8 +46,6 @@
     echo "Product: " . ($a * $b) . "<br>";
     echo "Quotient: " . ($a / $b);
   ?>
-  <br>
-  <button onclick="buttonClicked('Activity 2')">Click me</button>
 </section>
 
 <section>
@@ -80,8 +58,6 @@
     echo "Area: $area<br>";
     echo "Perimeter: $perimeter";
   ?>
-  <br>
-  <button onclick="buttonClicked('Activity 3')">Click me</button>
 </section>
 
 <section>
@@ -91,8 +67,6 @@
     $fahrenheit = ($celsius * 9/5) + 32;
     echo "$celsius °C is equal to $fahrenheit °F.";
   ?>
-  <br>
-  <button onclick="buttonClicked('Activity 4')">Click me</button>
 </section>
 
 <section>
@@ -106,8 +80,6 @@
     $y = $temp;
     echo "After swapping: x = $x, y = $y";
   ?>
-  <br>
-  <button onclick="buttonClicked('Activity 5')">Click me</button>
 </section>
 
 <section>
@@ -119,8 +91,6 @@
     $net_salary = $basic_salary + $allowance - $deduction;
     echo "Net Salary: ₱$net_salary";
   ?>
-  <br>
-  <button onclick="buttonClicked('Activity 6')">Click me</button>
 </section>
 
 <section>
@@ -131,8 +101,6 @@
     $bmi = $weight / ($height * $height);
     echo "Your BMI is " . round($bmi, 2);
   ?>
-  <br>
-  <button onclick="buttonClicked('Activity 7')">Click me</button>
 </section>
 
 <section>
@@ -144,8 +112,6 @@
     echo "Uppercase: " . strtoupper($sentence) . "<br>";
     echo "Lowercase: " . strtolower($sentence);
   ?>
-  <br>
-  <button onclick="buttonClicked('Activity 8')">Click me</button>
 </section>
 
 <section>
@@ -157,8 +123,6 @@
     $balance = $balance + $deposit - $withdraw;
     echo "Final Balance: ₱$balance";
   ?>
-  <br>
-  <button onclick="buttonClicked('Activity 9')">Click me</button>
 </section>
 
 <section>
@@ -182,8 +146,6 @@
     echo "Average: " . round($average, 2) . "<br>";
     echo "Grade: $grade";
   ?>
-  <br>
-  <button onclick="buttonClicked('Activity 10')">Click me</button>
 </section>
 
 <section>
@@ -200,8 +162,6 @@
     echo "PHP $php_amount = EUR " . number_format($eur, 2) . "<br>";
     echo "PHP $php_amount = JPY " . number_format($jpy, 2);
   ?>
-  <br>
-  <button onclick="buttonClicked('Activity 11')">Click me</button>
 </section>
 
 <section>
@@ -214,8 +174,6 @@
     $total_cost = $fuel_needed * $fuel_price;
     echo "Estimated travel cost: ₱" . number_format($total_cost, 2);
   ?>
-  <br>
-  <button onclick="buttonClicked('Activity 12')">Click me</button>
 </section>
 
 </body>
